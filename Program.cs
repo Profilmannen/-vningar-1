@@ -4,14 +4,22 @@ if (6 >= 3){
 }
 
 
-// Console.WriteLine("Vad heter du?");
+Console.WriteLine("Vad heter du?");
+string namn = Console.ReadLine();
+Console.WriteLine("Vad är ditt lösenord?");
 
-// string namn = Console.ReadLine();
+string lösenord = Console.ReadLine(); 
 
-// if (namn == "noname")
-// {
-//     Console.WriteLine("Välkommen");
-// }
+if (namn == "noname" && lösenord == "nopass")
+{
+     Console.WriteLine("Välkommen");
+}
+
+else
+{
+    Console.WriteLine("Fel lösenord eller namn!");
+
+}
 
 
 
