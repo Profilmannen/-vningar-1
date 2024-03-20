@@ -4,8 +4,6 @@ if (6 >= 3){
 }
 
 
-
-
 // Console.WriteLine("Vad heter du?");
 
 // string namn = Console.ReadLine();
